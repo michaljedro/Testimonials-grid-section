@@ -1,43 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&family=Open+Sans:ital@1&display=swap");
 * {
   box-sizing: border-box;
-  padding: 0;
-  margin: 0%;
-}
-body {
-  font-family: "open sans", sans-serif;
-  font-size: 16px;
-  height: 100vh;
-  display: grid;
-  grid-template-areas:
-    "nav header header"
-    "nav content content"
-    "nav content content"
-    "nav content content"
-    "nav content content"
-    "nav content content"
-    "nav content content"
-    "footer footer footer";
-}
-header,
-footer,
-main,
-aside,
-nav {
-  background-color: steelblue;
-  color: #fff;
-  padding: 20px;
-  border: skyblue 1px solid;
-}
-header {
-  grid-area: header;
-}
-nav {
-  grid-area: nav;
-}
-main {
-  grid-area: content;
+  margin: 0;
+  padding: 0%;
 }
 
-footer {
-  grid-area: footer;
+body {
+  background: #edf2f8;
+  font-family: "Barlow Semi Condensed", sans-serif;
+  line-height: 1.7;
+  font-size: 13px;
+}
+.testimonials {
+  max-width: 1440px;
+  margin: 100px auto;
+  padding: 20px;
+}
+.card {
+  background: #fff;
+  border-radius: 10px;
+  padding: 30px;
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+  margin-bottom: 10px;
+}
+.card__header {
+  display: flex;
 }
